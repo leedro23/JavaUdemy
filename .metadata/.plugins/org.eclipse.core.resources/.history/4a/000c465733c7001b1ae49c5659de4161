@@ -34,7 +34,7 @@ public class Program {
 		
 		//Ajuda a encontrar o primeiro elemento que atende ao predicado do filter. Para isso, precisa-se
 		//criar uma varíavel que seja do tipo da lista, fazendo o filtro e usando a função findFirst.
-		//Essa função retorna um optional String. caso não encontre, o retorno será null.
+		//Essa função retorna um boolean. caso não encontre, o retorno será null.
 		String name = list.stream().filter(x -> x.charAt(0) == 'A').findFirst().orElse(null);
 		
 		for (String x : list) {

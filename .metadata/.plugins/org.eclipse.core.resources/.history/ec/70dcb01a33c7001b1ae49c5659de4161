@@ -1,0 +1,36 @@
+package application;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<String> list = new ArrayList<>();
+		list.add("Maria");
+		list.add("Alex");
+		list.add("Bob");
+		list.add("Anna");
+		list.add(2,"Marco");
+		
+		System.out.println(list.size());
+		//Remove todas as palavras que começarem com M
+		list.removeIf(x -> x.charAt(0) == 'M');
+		//Remove o que estiver na posição 1
+		list.remove(1);
+		//Retorna o index do elemento
+		list.indexOf("Bob");
+		
+		for (String x : list) {
+			if( x == "Alex") {
+				x = "Felix";
+			}
+			System.out.println(x);
+		}
+		
+
+	}
+
+}
