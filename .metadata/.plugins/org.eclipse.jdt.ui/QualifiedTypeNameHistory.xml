@@ -11,5 +11,9 @@
     <fullyQualifiedTypeName name="entites.Product"/>
     <fullyQualifiedTypeName name="entites.Client"/>
     <fullyQualifiedTypeName name="listas.List"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collector"/>
+    <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
 </qualifiedTypeNameHistroy>
