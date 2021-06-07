@@ -1,0 +1,10 @@
+package listas;
+
+public class List {
+
+	public static void main(String[] args) {
+
+		List list;
+	}
+
+}

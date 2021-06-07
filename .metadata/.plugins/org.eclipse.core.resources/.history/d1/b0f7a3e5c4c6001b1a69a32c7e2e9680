@@ -1,0 +1,12 @@
+package operation;
+
+public class Entites {
+	
+	private int number= 0;
+	private String holder = "";
+	private double balance = 0;
+	
+	
+	
+
+}

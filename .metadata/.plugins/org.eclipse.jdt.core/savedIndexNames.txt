@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\PROJECTS\JAVA_PROJECT\UDEMY\.metadata\.plugins\org.eclipse.jdt.core
+2456451755.index
+3729101479.index

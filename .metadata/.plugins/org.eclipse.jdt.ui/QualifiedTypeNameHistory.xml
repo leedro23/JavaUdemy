@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="triangle.Entites"/>
+    <fullyQualifiedTypeName name="entites.Triangle"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="entites.Retangulo"/>
+    <fullyQualifiedTypeName name="operation.Entites"/>
+    <fullyQualifiedTypeName name="entites.Account"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="entites.Product"/>
+    <fullyQualifiedTypeName name="entites.Client"/>
+    <fullyQualifiedTypeName name="listas.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>
