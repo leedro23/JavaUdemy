@@ -4,12 +4,11 @@ public class Client {
 
 	private String name;
 	private String email;
-	private int room;
 
-	public Client(String name, String email, int room) {
+	public Client(String name, String email) {
 		this.name = name;
 		this.email = email;
-		this.room = room;
+
 	}
 
 	public String getName() {
@@ -28,21 +27,8 @@ public class Client {
 		this.email = email;
 	}
 
-	public int getRoom() {
-		return room;
-	}
-
-	public void setRoom(int room) {
-		this.room = room;
-	}
-	
 	public String toString() {
-		return "name: "
-				+ name
-				+ "Email: "
-				+ email
-				+ "Room: "
-				+ room;
+		return "name: " + name + ", " + "Email: " + email;
 	}
 
 }

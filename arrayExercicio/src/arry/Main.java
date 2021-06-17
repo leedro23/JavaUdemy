@@ -12,30 +12,28 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		Client client = null;
+
+		Client[] vect = new Client[10];
 		
-		
-		System.out.print("Quantos quartos serão alugados? ");
+		System.out.println("Quantos quartos serão alugados?");
 		int n = sc.nextInt();
-		
 
-		Client[] vect = new Client[n];
-
-		for (int i = 0; i < vect.length; i++) {
-			sc.nextLine();
-
+		for (int i = 0; i < n; i++) {
+			System.out.println();
+			System.out.println("Aluguel #" + i + ":");
 			System.out.print("Informe o nome: ");
+			sc.nextLine();
 			String name = sc.nextLine();
 			System.out.println("Informe o e-mail: ");
 			String email = sc.nextLine();
-			// System.out.println("Confirme o número do quarto: ");
-			int room = n;
-			vect[n] = new Client(name, email, room);
-			client = vect[n];
+			System.out.println("Confirme o número do quarto: ");
+			int room = sc.nextInt();
+			vect[room] = new Client(name, email);
 		}
 
-		for (int i = 0; i < vect.length; i++) {
+		for (int i = 0; i < 10; i++) {
 			if (vect[i] != null) {
-				System.out.println(client);
+				System.out.println(i + ": " + vect[i]);
 			}
 		}
 
